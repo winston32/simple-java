@@ -1,0 +1,14 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+/.idea/
+/.vscode/
+*.iml
+
+# Java
+*.class
+
+# Logs (allow logs dir to be present but ignore contents)
+logs/
