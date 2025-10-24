@@ -35,14 +35,14 @@ public class AddController {
         boolean usedDefault = false;
 
         // fallback to defaults if missing
-        if (Objects.isNull(a)) {
-            a = 3;
-            usedDefault = true;
-        }
-        if (Objects.isNull(b)) {
-            b = 5;
-            usedDefault = true;
-        }
+        // if (Objects.isNull(a)) {
+        //     a = 3;
+        //     usedDefault = true;
+        // }
+        // if (Objects.isNull(b)) {
+        //     b = 5;
+        //     usedDefault = true;
+        // }
 
         if (usedDefault) {
             log.warn("POST /add missing parameters; falling back to defaults a={} b={}", a, b);
